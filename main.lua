@@ -3,7 +3,7 @@
 local dependencies = {
     ["JSON"] = "https://raw.githubusercontent.com/NoTwistedHere/Storage/main/Other/JSONWithUserdata",
     ["YourIP"] = "https://myip.wtf/text",
-    ["IP_List"] = "https://raw.githubusercontent.com/NoTwistedHere/Storage/main/Other/JSONWithUserdata"
+    ["IP_List"] = "https://raw.githubusercontent.com/hff321/Starscape/master/IP_List.json"
 }
 
 local JSON = loadstring(game:HttpGet(dependencies["JSON"], true))()
